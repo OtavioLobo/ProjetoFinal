@@ -1,0 +1,67 @@
+.Register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.RegisterBox{
+    margin-top: 8rem;
+    width: 350px;
+    height: 300px;
+    background-color: orange;
+    border-radius: 10px;
+ 
+}
+
+.RegisterHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.inputs {
+    padding: 25px;
+}
+
+.Email  {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.password {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+.containerbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitbutton {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(71, 92, 102);
+    border-radius: 5px;
+    border-width: 1;
+    border: 1px solid black;
+}
+
+.submitbutton:hover{
+    background-color: rgb(110, 166, 68);
+}
